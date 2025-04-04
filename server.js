@@ -49,7 +49,7 @@ require('./routerCMS')(app, redT);	//load routes CMS
 require('./routerSocket')(app, redT); // load các routes WebSocket
 require('./app/Cron/taixiu')(redT);   // Chạy game Tài Xỉu
 require('./app/Cron/baucua')(redT);   // Chạy game Bầu Cua
-require('./config/cron')();
+require('./config/Cron')();
 require('./app/Telegram/Telegram')(redT); // Telegram Bot
 require('./config/crontextchatdata')(); // copy text chat
 //require('./config/croncreateboot')();// create boot name duoc doc tu file
