@@ -1,0 +1,2 @@
+node server start
+pause
